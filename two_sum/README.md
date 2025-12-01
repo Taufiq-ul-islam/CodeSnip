@@ -5,7 +5,11 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 Constraints:
+
 2 <= nums.length <= 104
+
 -10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>
+
 -10<sup>9</sup> <= target <= 10<sup>9</sup>
+
 Only one valid answer exists.
