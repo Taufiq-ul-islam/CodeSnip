@@ -6,13 +6,13 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     int *arr = (int *) malloc(*returnSize * sizeof(int));
     for (int i = 0 ; i < numsSize ; i++){
         for (int j = i + 1 ; j < numsSize ; j++){
-            if((nums[i] + nums[j]) == target){
+            if((nums[i] + nums[j]) == target){ // Checking over loops
                 arr[0] = i;
                 arr[1] = j;
                 return arr;
             }
         }
     }
-    *returnSize = 0;
+    *returnSize = 0; // No solution exists
     return NULL;
 }
