@@ -9,5 +9,7 @@ Since the answer may be very large, return it modulo 10<sup>9</sup> + 7.
 Constraints:
 
 4 <= points.length <= 10<sup>5</sup>
+
 –10<sup>8</sup> <= xi, yi <= 10<sup>8</sup>
+
 All points are pairwise distinct.
