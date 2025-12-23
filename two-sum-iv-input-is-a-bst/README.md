@@ -2,10 +2,10 @@ Given the root of a binary search tree and an integer k, return true if there ex
 
 Constraints :
 
-  - The number of nodes in the tree is in the range [1, 104].
+  - The number of nodes in the tree is in the range [1, 10<sup>4</sup>].
 
   - -10<sup>4</sup> <= Node.val <= 10<sup>4</sup>
 
   - root is guaranteed to be a valid binary search tree.
       
-  - -105 <= k <= 105
+  - -10<sup>5</sup> <= k <= 10<sup>5</sup>
